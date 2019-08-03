@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "ramda": "^0.26.1"
+  },
+  "name": "duck",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/qqqpthenq/duck.git",
+  "author": "qqqpthenq <qqqpthenq@gmail.com>",
+  "license": "MIT"
+}
