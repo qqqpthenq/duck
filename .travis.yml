@@ -14,6 +14,11 @@ deploy:
   - provider: s3
     access_key_id: ${AWS_S3_ACCESS_KEY_ID}
     secret_access_key: ${AWS_S3_SECRET_ACCESS_KEY}
+    bucket: duck-codedeploy
+    local_dir: src
+    skip_cleanup: true
+    on:
+      branch: master
 
   - provider: codedeploy
     access_key_id: ${AWS_S3_ACCESS_KEY_ID}
